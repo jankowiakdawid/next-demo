@@ -1,5 +1,5 @@
-import Link from "next/link";
-import { Layout } from "../../components/Layout";
+import Link from "next/link"
+import { Layout } from "../../components/Layout"
 
 export default function DayPage() {
   return (
@@ -11,5 +11,5 @@ export default function DayPage() {
         </Link>
       </p>
     </Layout>
-  );
+  )
 }

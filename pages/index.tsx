@@ -1,5 +1,5 @@
-import WorldGreeter, { PersonGreeter } from "../components/Greeter";
-import { Layout } from "../components/Layout";
+import WorldGreeter, { PersonGreeter } from "../components/Greeter"
+import { Layout } from "../components/Layout"
 
 export default function IndexPage() {
   return (
@@ -7,5 +7,5 @@ export default function IndexPage() {
       <WorldGreeter />
       <PersonGreeter name="Rafal" />
     </Layout>
-  );
+  )
 }
